@@ -1,0 +1,51 @@
+{
+  "name": "@mliebelt/pgn-viewer",
+  "description": "A pgn viewer to view or edit chess games on HTML web sites.",
+  "keywords": [
+    "chess",
+    "pgn",
+    "viewer"
+  ],
+  "version": "1.6.3",
+  "main": "lib/dist.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**",
+    "README.md",
+    "LICENSE"
+  ],
+  "author": "mliebelt",
+  "license": "GPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mliebelt/PgnViewerJS.git"
+  },
+  "scripts": {
+    "clean": "rm -fr lib/*",
+    "build": "../../node_modules/.bin/webpack --config webpack.prod.js",
+    "start": "../../node_modules/.bin/webpack serve --config webpack.dev.js",
+    "server": "http-server",
+    "gen_i18n": "./bin/gen-i18n.js",
+    "test": "mocha ",
+    "buildtsc": "tsc src/**/*.ts"
+  },
+  "dependencies": {
+    "@mliebelt/pgn-reader": "^1.2.16",
+    "chessground": "mliebelt/Chessground",
+    "mousetrap-ts": "^1.0.0",
+    "roddeh-i18n": "^1.2.0",
+    "smoothscroll-polyfill": "^0.4.4",
+    "modaly.js": "^0.5.2"
+  },
+  "devDependencies": {
+    "@tsconfig/node12": "^1.0.9",
+    "@types/chai": "^4.3.4",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^17.0.8",
+    "@types/smoothscroll-polyfill": "^0.3.1",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.4.4"
+  }
+}

@@ -1,0 +1,28 @@
+[Event "Italian's best Moves: Kapitel 1"]
+[Site "https://lichess.org/study/VMl5BPC8/NPc1Wwkr"]
+[Result ""]
+[UTCDate "2023.03.06"]
+[UTCTime "16:15:52"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[Annotator "https://lichess.org/@/Kananga33"]
+[FEN "r1bq1rk1/ppp1bppp/2n5/4p3/2B2n2/2PP1N2/PP1N1PPP/R1BQ1RK1 w - - 4 9"]
+[SetUp "1"]
+
+9. Ne4 h6 10. Bxf4 exf4 11. d4
+
+
+[Event "Italian's best Moves: Kapitel 2"]
+[Site "https://lichess.org/study/VMl5BPC8/vOJkjJ8W"]
+[Result ""]
+[UTCDate "2023.03.06"]
+[UTCTime "22:39:22"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[Annotator "https://lichess.org/@/Kananga33"]
+[FEN "r1bqr1k1/bpp2pp1/p2p1n1p/n3p3/4P3/2PP1N1P/PPB2PP1/R1BQRNK1 b - - 5 12"]
+[SetUp "2"]
+
+12... c6 13. b4

@@ -1,0 +1,2 @@
+- hole pgn datei und speichere einzelnen pgns in array
+- hole fen von pgn 
