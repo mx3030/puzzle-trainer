@@ -50,7 +50,7 @@ function onDrop (source, target) {
             }
             runPgn(pgn_strings_random_index)
         }
-    } else {
+    } else if(checkMove(source,target)==false) {
         pgn_strings_random_index += 1
         if(pgn_strings_random_index == pgn_strings_random.length){
             pgn_strings_random = shuffleArray(pgn_strings)
