@@ -1,0 +1,6 @@
+/*to prevent body moving in ios browsers*/
+body{
+    touch-action: none;
+    -ms-touch-action: none;
+}
+
