@@ -129,6 +129,10 @@ board = Chessboard('myBoard',config)
 function resetTraining(){
     $('#start').removeClass("d-none")
     $('#progress').addClass("d-none")
+    $('#falseBar').css("width","0%")
+    $('#trueBar').css("width","0%")
+    trueBarAdd = 0
+    falseBarAdd = 0
     board = Chessboard('myBoard', config)
 }
 
